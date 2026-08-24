@@ -43,10 +43,10 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-50 w-full transition duration-300 ${
+      className={`fixed left-0  top-0 z-50 w-full transition duration-300 ${
         scrolled || open
-          ? "border-b border-line bg-cream/88 shadow-[0_10px_35px_rgba(18,55,42,0.06)] backdrop-blur-xl"
-          : "bg-transparent"
+          ? ""
+          : ""
       }`}
     >
       <nav className="section-wrap flex h-[74px] items-center justify-between" aria-label="Main">
