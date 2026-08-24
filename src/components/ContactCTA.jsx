@@ -36,6 +36,7 @@ export default function ContactCTA() {
                 <Button
                   href={createWhatsAppLink(messages.general)}
                   target="_blank"
+varient="secondary"
                   className="border-orange bg-orange text-forest hover:bg-[#e5a25f]"
                 >
                   WhatsApp Karein
